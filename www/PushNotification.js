@@ -1,3 +1,4 @@
+var exec = require('cordova/exec');
 var platformId = require('cordova/platform').id;
 
 // Call this to register for push notifications. Content of [options] depends on whether we are working with APNS (iOS) or GCM (Android)

@@ -101,6 +101,7 @@ public class GCMIntentService extends GCMBaseIntentService {
 
 		// Status bar notification.
     Notification.Builder mBuilder = new Notification.Builder(this)
+    		.setDefaults(Notification.DEFAULT_ALL)
     		.setSmallIcon(context.getApplicationInfo().icon)
 				//.setWhen(System.currentTimeMillis())
         .setContentTitle(appName)

@@ -1,5 +1,6 @@
 # Cordova Push Notifications Plugin for Android and iOS
 
+Modified by elsigh to be more PG3.x style, and replace Android compat builder with latest API (had major trouble with icon sizes otherwise).
 ---
 
 ## DESCRIPTION

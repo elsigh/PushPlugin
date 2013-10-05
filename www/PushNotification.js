@@ -1,4 +1,3 @@
-cordova.define("com.phonegap.plugins.PushPlugin.PushNotification", function(require, exports, module) {var exec = require('cordova/exec');
 var platformId = require('cordova/platform').id;
 
 // Call this to register for push notifications. Content of [options] depends on whether we are working with APNS (iOS) or GCM (Android)
@@ -53,4 +52,3 @@ exports.setApplicationIconBadgeNumber = function(successCallback, errorCallback,
     exec(successCallback, errorCallback, "PushPlugin", "setApplicationIconBadgeNumber", [{badge: badge}]);
 };
 
-});
